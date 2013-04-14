@@ -1,7 +1,8 @@
 #include "../picoc.h"
 
 extern int picoc(char *SourceStr);
-
+// Example code for STK-3700
+// http://www.energymicro.com/tools/efm32-giant-gecko-starter-kit-efm32gg-stk3700
 const char *TestC = \
 "#include <stdio.h>\n"							\
 "#include <stk.h>\n"							\
